@@ -1,0 +1,22 @@
+/* SearchBar.module.css */
+.searchContainer {
+    width: 300px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #E4E4EE;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    margin-right: 8px;
+  }
+  
+  .searchIcon {
+    cursor: pointer;
+  }
+  

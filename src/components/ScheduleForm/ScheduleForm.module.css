@@ -1,0 +1,65 @@
+.popover {
+    margin-top: 116px;
+  margin-left: -85px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 304px;
+  border-radius: 4px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-family: "Nunito Sans";
+  width: 72px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.input {
+  width: 216px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #3c1e5a1a;
+}
+.buttonStyle {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.checkboxRow {
+  display: flex;
+  gap: 2px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkboxCustom {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.checkboxCustom.checked {
+  background-color: #391e5a;
+  color: #fff;
+}

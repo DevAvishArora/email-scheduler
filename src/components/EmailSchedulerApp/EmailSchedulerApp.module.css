@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 50px;
+  padding: 20px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 108px;
+  width: 1360px;
+}
